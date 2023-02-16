@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+oxylana = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "oxyzEsUj9CV6HsqPCUZqVwrFJJvpd9iCBrPdzTBWLBb.json"
+
+[scripts]
+test = "cargo test -- --nocapture"

@@ -1,0 +1,23 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = "0.3.1"
+dioxus-web = "0.3.0"
+gloo-utils = "0.1.6"
+js-sys = "0.3.61"
+log = "0.4.17"
+serde = "1.0.152"
+solana-client-wasm = "1.14.11"
+wasm-bindgen = "0.2.84"
+wasm-bindgen-futures = "0.4.34"
+wasm-logger = "0.2.0"
+anchor-lang = "0.26.0"
+bs58 = "0.4.0"
+
+[dependencies.oxylana]
+path = "../programs/oxylana/"

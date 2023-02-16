@@ -1,0 +1,3 @@
+[watch]
+# Without this trunk will rebuild consistently due to solana-test-validator
+ignore = [".anchor"]
