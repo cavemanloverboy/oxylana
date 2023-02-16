@@ -3,7 +3,9 @@
 This repository provides a template for a Solana application with a full Rust stack. The repository includes
 
 :white_check_mark: Rust Smart Contract (Anchor)
+
 :white_check_mark: Rust Frontend (Dioxus)
+
 :white_check_mark: Rust Unit Tests
 
 A dummy keypair is provided. Presently, the frontend only supports Phantom, but similar adapters can be built for other wallets. This repository takes inspiration from [this repository](https://github.com/russellwmy/yew-dapp-examples).
