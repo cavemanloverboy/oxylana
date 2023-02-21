@@ -22,6 +22,8 @@ If you do not have `trunk`, install via `cargo install trunk`.
 
 This requires the wasm32 target, obtainable via `rustup target install wasm32-unknown-unknown` if you do not yet have it.
 
+The use of localnet is hardcoded into the template; be sure to switch your wallet to localnet to avoid issues regarding recent blockhashes.
+
 ### Learn More
 
 Visit the Dioxus, Trunk, and Anchor docs/repositories to learn more.
