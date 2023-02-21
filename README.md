@@ -20,6 +20,7 @@ To display the frontend, first spin up an `anchor localnet` and then run `trunk 
 
 If you do not have `trunk`, install via `cargo install trunk`.
 
+This requires the wasm32 target, obtainable via `rustup target install wasm32-unknown-unknown` if you do not yet have it.
 
 ### Learn More
 
